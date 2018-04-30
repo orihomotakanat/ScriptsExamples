@@ -63,6 +63,8 @@ end #class end
 
 test = KinesisStreamsConsumer.new
 
+# If you create KinesisStreams, create that with createStream() method
+
 loop do
   test.getRecords
   sleep(4200)
