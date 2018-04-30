@@ -1,0 +1,18 @@
+specificConfig: # The certificates are different for each region
+  UsEast1:
+        region: us-east-1
+        host: <IoTEndpoint>.iot.us-east-1.amazonaws.com
+        certificatePath: <CertPath>
+        privateKeyPath: <ClientKeyPath>
+        rootCaPath: <RootcaPath>
+  ApNortheast1:
+        region: ap-northeast-1
+        host: <IoTEndpoint>.iot.ap-northeast-1.amazonaws.com
+        certificatePath: <CertPath>
+        privateKeyPath: <ClientKeyPath>
+        rootCaPath: <RootcaPath>
+
+topicConfig:
+        publish: topic/pub
+        subscribe: topic/sub
+        clientid: tester

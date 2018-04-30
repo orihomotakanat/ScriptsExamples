@@ -1,0 +1,4 @@
+# Certificate of AWS IoT
+/aws-iot/aws-iot-device-sdk-examples/certs/*.crt
+/aws-iot/aws-iot-device-sdk-examples/certs/*.pem
+/aws-iot/aws-iot-device-sdk-examples/certs/*.key
