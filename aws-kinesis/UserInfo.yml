@@ -1,0 +1,4 @@
+kinesisCredential:
+  region: <Your Region>
+  accessKeyId: <Your accessKeyId>
+  secretKeyId: <Your secretKeyId>
