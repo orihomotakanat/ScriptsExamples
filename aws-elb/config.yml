@@ -1,0 +1,14 @@
+UserCredential:
+  region: elasticloadbalancing.<Region>.amazonaws.com
+  accessKeyId: <Your access key>
+  secretKeyId: <Your secret key>
+
+Settings:
+  certificateID: arn:aws:acm:<Region>:<YourAccountNumber>:certificate/xxxxxxxxxxxx
+  securityGroup: <securityGroupID>
+  subnet: <subnetID>
+
+AssumeRoleCredentials:
+  roleArn: arn:aws:iam::<YourAccountNumber>:role/xxxxxxxxxxxx
+  accessKeyId: <Your assumeRoleUser access key>
+  secretKeyId: <Your assumeRoleUser secret key>
