@@ -4,7 +4,7 @@
 ## Syntax of the template
 ### Overview
 
-### Parameter
+### `Parameters`
 The definition of ...
 
 ```json
@@ -18,4 +18,4 @@ The definition of ...
 
 `<Definite parameter name>` will be used in `Resources` block by `Ref`.
 
-### Resources
+### `Resources`
